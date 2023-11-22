@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+        <title>Formulario</title>
+        <meta charset="UTF-8"> 
+    </head>
+    <body>
+        <form action="envio.php" method="get">
+        <fieldset>
+            <legend>Formulario</legend>
+            <label for="name">Nombre:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="correo">Correo electrónico:</label><br>
+            <input type="email" id="correo" name="correo"><br>
+            <label for="fecha">Fecha de la reserva:</label><br>
+            <input type="date" id="fecha" name="fecha"><br>
+            <label for="talla">Selecione su talla:</label><br>
+            <select id="talla" name="talla">
+                <option value="s">S</option>
+                <option value="m">M</option>
+                <option value="l">L</option>
+                <option value="xl">XL</option>
+            </select>
+            
+            <p>Seleccione solo una opción</p>
+
+            <input type="radio" id="corbata" name="cuello" value="Corbata">
+            <label for="corbata">Corbata</label><br>
+            <input type="radio" id="pajarita" name="cuello" value="pajarita">
+            <label for="pajarita">Pajarita</label><br>
+
+            <p>Seleccione los accesorios</p>
+            <input type="checkbox" id="accesorios" name="accesorios">
+            <label for="chaleco">Chaleco</label><br>
+            <input type="checkbox" id="accesorios" name="accesorios">
+            <label for="pañuelo">Pañuelo</label><br>
+            <input type="checkbox" id="accesorios" name="accesorios">
+            <label for="gemelos">Gemelos</label><br>
+            
+            <p>Seleccione la fecha</p>
+            <label for="fecha">Dia inicio</label>
+            <input type="date" id="fechai" name="fechai">
+            <label for="fecha">Dia fin</label>
+            <input type="date" id="fechaf" name="fechaf">
+
+
+
+            
+            
+
+
+
+        </fieldset>
+        </form>
+    </body>
+</html>
